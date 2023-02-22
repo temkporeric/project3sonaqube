@@ -21,5 +21,5 @@
 	sudo chown -R vagrant:vagrant /opt/sonarqube-9.3.0.51899
 	cd /opt/sonarqube-9.3.0.51899/bin/linux-x86-64/
 	./sonar.sh start
-     sudo firewall-cmd --permanent --add-port=9000/tcpcd
+     sudo firewall-cmd --permanent --add-port=9000/tcp
      sudo firewall-cmd --reload
